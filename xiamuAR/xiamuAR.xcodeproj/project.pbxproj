@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B63AEDD25C4E37EE4B4E320 /* libPods-xiamuAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC9508C2BFB70DE8DC3A371 /* libPods-xiamuAR.a */; };
+		B907CB171FF4CAF400E79A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB161FF4CAF400E79A99 /* AppDelegate.m */; };
+		B907CB1A1FF4CAF400E79A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB191FF4CAF400E79A99 /* ViewController.m */; };
+		B907CB1D1FF4CAF400E79A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B907CB1B1FF4CAF400E79A99 /* Main.storyboard */; };
+		B907CB1F1FF4CAF400E79A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B907CB1E1FF4CAF400E79A99 /* Assets.xcassets */; };
+		B907CB221FF4CAF400E79A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B907CB201FF4CAF400E79A99 /* LaunchScreen.storyboard */; };
+		B907CB251FF4CAF400E79A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB241FF4CAF400E79A99 /* main.m */; };
+		B907CB2F1FF4CAF400E79A99 /* xiamuARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB2E1FF4CAF400E79A99 /* xiamuARTests.m */; };
+		B907CB3A1FF4CAF400E79A99 /* xiamuARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB391FF4CAF400E79A99 /* xiamuARUITests.m */; };
+		B907CB501FF4D44800E79A99 /* YFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB4F1FF4D44800E79A99 /* YFTabBarViewController.m */; };
+		B907CB531FF4D46F00E79A99 /* YFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB521FF4D46F00E79A99 /* YFTabBar.m */; };
+		B907CB561FF4D69600E79A99 /* YFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB551FF4D69600E79A99 /* YFNavigationViewController.m */; };
+		B907CB591FF4D6CA00E79A99 /* YFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB581FF4D6CA00E79A99 /* YFBaseViewController.m */; };
+		B907CB5C1FF4D6E900E79A99 /* YFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */; };
+		B9C666451FF5D3B900D53A92 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C666441FF5D3B900D53A92 /* HomePageViewController.m */; };
+		B9C666481FF5D3E800D53A92 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C666471FF5D3E800D53A92 /* MessageViewController.m */; };
+		B9C6664B1FF5D41200D53A92 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C6664A1FF5D41200D53A92 /* DiscoveryViewController.m */; };
+		B9C6664E1FF5D69000D53A92 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C6664D1FF5D69000D53A92 /* MineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B907CB2B1FF4CAF400E79A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B907CB0A1FF4CAF400E79A99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B907CB111FF4CAF400E79A99;
+			remoteInfo = xiamuAR;
+		};
+		B907CB361FF4CAF400E79A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B907CB0A1FF4CAF400E79A99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B907CB111FF4CAF400E79A99;
+			remoteInfo = xiamuAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76D24032290B6D98DEB8EACB /* Pods-xiamuAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiamuAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiamuAR/Pods-xiamuAR.release.xcconfig"; sourceTree = "<group>"; };
+		B907CB121FF4CAF400E79A99 /* xiamuAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiamuAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B907CB151FF4CAF400E79A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B907CB161FF4CAF400E79A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B907CB181FF4CAF400E79A99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B907CB191FF4CAF400E79A99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B907CB1C1FF4CAF400E79A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B907CB1E1FF4CAF400E79A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B907CB211FF4CAF400E79A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B907CB231FF4CAF400E79A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B907CB241FF4CAF400E79A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B907CB2A1FF4CAF400E79A99 /* xiamuARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiamuARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B907CB2E1FF4CAF400E79A99 /* xiamuARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiamuARTests.m; sourceTree = "<group>"; };
+		B907CB301FF4CAF400E79A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B907CB351FF4CAF400E79A99 /* xiamuARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiamuARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B907CB391FF4CAF400E79A99 /* xiamuARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiamuARUITests.m; sourceTree = "<group>"; };
+		B907CB3B1FF4CAF400E79A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B907CB4E1FF4D44800E79A99 /* YFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTabBarViewController.h; sourceTree = "<group>"; };
+		B907CB4F1FF4D44800E79A99 /* YFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTabBarViewController.m; sourceTree = "<group>"; };
+		B907CB511FF4D46F00E79A99 /* YFTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFTabBar.h; sourceTree = "<group>"; };
+		B907CB521FF4D46F00E79A99 /* YFTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFTabBar.m; sourceTree = "<group>"; };
+		B907CB541FF4D69600E79A99 /* YFNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFNavigationViewController.h; sourceTree = "<group>"; };
+		B907CB551FF4D69600E79A99 /* YFNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFNavigationViewController.m; sourceTree = "<group>"; };
+		B907CB571FF4D6CA00E79A99 /* YFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFBaseViewController.h; sourceTree = "<group>"; };
+		B907CB581FF4D6CA00E79A99 /* YFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFBaseViewController.m; sourceTree = "<group>"; };
+		B907CB5A1FF4D6E900E79A99 /* YFBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFBaseTableViewCell.h; sourceTree = "<group>"; };
+		B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFBaseTableViewCell.m; sourceTree = "<group>"; };
+		B907CB5D1FF4D93500E79A99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B9C666431FF5D3B900D53A92 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		B9C666441FF5D3B900D53A92 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		B9C666461FF5D3E800D53A92 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		B9C666471FF5D3E800D53A92 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		B9C666491FF5D41200D53A92 /* DiscoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		B9C6664A1FF5D41200D53A92 /* DiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		B9C6664C1FF5D69000D53A92 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		B9C6664D1FF5D69000D53A92 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		B9C666521FF5DD5400D53A92 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		BEC9508C2BFB70DE8DC3A371 /* libPods-xiamuAR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xiamuAR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95E9845D670F57AE8BDA001 /* Pods-xiamuAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiamuAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiamuAR/Pods-xiamuAR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B907CB0F1FF4CAF400E79A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63AEDD25C4E37EE4B4E320 /* libPods-xiamuAR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907CB271FF4CAF400E79A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907CB321FF4CAF400E79A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B907CB091FF4CAF400E79A99 = {
+			isa = PBXGroup;
+			children = (
+				B907CB141FF4CAF400E79A99 /* xiamuAR */,
+				B907CB2D1FF4CAF400E79A99 /* xiamuARTests */,
+				B907CB381FF4CAF400E79A99 /* xiamuARUITests */,
+				B907CB131FF4CAF400E79A99 /* Products */,
+				FD0AE21D16AF2401BAC5CA3C /* Pods */,
+				CE692A351DE224CC3B370353 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B907CB131FF4CAF400E79A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B907CB121FF4CAF400E79A99 /* xiamuAR.app */,
+				B907CB2A1FF4CAF400E79A99 /* xiamuARTests.xctest */,
+				B907CB351FF4CAF400E79A99 /* xiamuARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B907CB141FF4CAF400E79A99 /* xiamuAR */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6664F1FF5DD0300D53A92 /* 扩展 */,
+				B9C6663A1FF5D25400D53A92 /* 我的 */,
+				B9C666391FF5D24C00D53A92 /* 发现 */,
+				B9C666381FF5D24100D53A92 /* 消息 */,
+				B9C666371FF5D15D00D53A92 /* 首页 */,
+				B907CB4B1FF4D34200E79A99 /* Base */,
+				B907CB151FF4CAF400E79A99 /* AppDelegate.h */,
+				B907CB161FF4CAF400E79A99 /* AppDelegate.m */,
+				B907CB181FF4CAF400E79A99 /* ViewController.h */,
+				B907CB191FF4CAF400E79A99 /* ViewController.m */,
+				B907CB1B1FF4CAF400E79A99 /* Main.storyboard */,
+				B907CB1E1FF4CAF400E79A99 /* Assets.xcassets */,
+				B907CB201FF4CAF400E79A99 /* LaunchScreen.storyboard */,
+				B907CB231FF4CAF400E79A99 /* Info.plist */,
+				B907CB241FF4CAF400E79A99 /* main.m */,
+				B907CB5D1FF4D93500E79A99 /* PrefixHeader.pch */,
+			);
+			path = xiamuAR;
+			sourceTree = "<group>";
+		};
+		B907CB2D1FF4CAF400E79A99 /* xiamuARTests */ = {
+			isa = PBXGroup;
+			children = (
+				B907CB2E1FF4CAF400E79A99 /* xiamuARTests.m */,
+				B907CB301FF4CAF400E79A99 /* Info.plist */,
+			);
+			path = xiamuARTests;
+			sourceTree = "<group>";
+		};
+		B907CB381FF4CAF400E79A99 /* xiamuARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B907CB391FF4CAF400E79A99 /* xiamuARUITests.m */,
+				B907CB3B1FF4CAF400E79A99 /* Info.plist */,
+			);
+			path = xiamuARUITests;
+			sourceTree = "<group>";
+		};
+		B907CB4B1FF4D34200E79A99 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B907CB4D1FF4D3AA00E79A99 /* Controller */,
+				B907CB4C1FF4D35D00E79A99 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B907CB4C1FF4D35D00E79A99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B907CB511FF4D46F00E79A99 /* YFTabBar.h */,
+				B907CB521FF4D46F00E79A99 /* YFTabBar.m */,
+				B907CB5A1FF4D6E900E79A99 /* YFBaseTableViewCell.h */,
+				B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B907CB4D1FF4D3AA00E79A99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B907CB4E1FF4D44800E79A99 /* YFTabBarViewController.h */,
+				B907CB4F1FF4D44800E79A99 /* YFTabBarViewController.m */,
+				B907CB541FF4D69600E79A99 /* YFNavigationViewController.h */,
+				B907CB551FF4D69600E79A99 /* YFNavigationViewController.m */,
+				B907CB571FF4D6CA00E79A99 /* YFBaseViewController.h */,
+				B907CB581FF4D6CA00E79A99 /* YFBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9C666371FF5D15D00D53A92 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6663B1FF5D31900D53A92 /* Controller */,
+				B9C6663C1FF5D33200D53A92 /* View */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		B9C666381FF5D24100D53A92 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6663D1FF5D34600D53A92 /* Controller */,
+				B9C6663E1FF5D35000D53A92 /* View */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		B9C666391FF5D24C00D53A92 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6663F1FF5D35D00D53A92 /* Controller */,
+				B9C666401FF5D37000D53A92 /* View */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		B9C6663A1FF5D25400D53A92 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C666411FF5D37900D53A92 /* Controller */,
+				B9C666421FF5D38A00D53A92 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		B9C6663B1FF5D31900D53A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9C666431FF5D3B900D53A92 /* HomePageViewController.h */,
+				B9C666441FF5D3B900D53A92 /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9C6663C1FF5D33200D53A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9C6663D1FF5D34600D53A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9C666461FF5D3E800D53A92 /* MessageViewController.h */,
+				B9C666471FF5D3E800D53A92 /* MessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9C6663E1FF5D35000D53A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9C6663F1FF5D35D00D53A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9C666491FF5D41200D53A92 /* DiscoveryViewController.h */,
+				B9C6664A1FF5D41200D53A92 /* DiscoveryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9C666401FF5D37000D53A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9C666411FF5D37900D53A92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6664C1FF5D69000D53A92 /* MineViewController.h */,
+				B9C6664D1FF5D69000D53A92 /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9C666421FF5D38A00D53A92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9C6664F1FF5DD0300D53A92 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C666501FF5DD1900D53A92 /* 宏 */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		B9C666501FF5DD1900D53A92 /* 宏 */ = {
+			isa = PBXGroup;
+			children = (
+				B9C666521FF5DD5400D53A92 /* Macros.h */,
+			);
+			path = "宏";
+			sourceTree = "<group>";
+		};
+		CE692A351DE224CC3B370353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC9508C2BFB70DE8DC3A371 /* libPods-xiamuAR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD0AE21D16AF2401BAC5CA3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E95E9845D670F57AE8BDA001 /* Pods-xiamuAR.debug.xcconfig */,
+				76D24032290B6D98DEB8EACB /* Pods-xiamuAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B907CB111FF4CAF400E79A99 /* xiamuAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B907CB3E1FF4CAF400E79A99 /* Build configuration list for PBXNativeTarget "xiamuAR" */;
+			buildPhases = (
+				0785C1967E7B9E98DC485094 /* [CP] Check Pods Manifest.lock */,
+				B907CB0E1FF4CAF400E79A99 /* Sources */,
+				B907CB0F1FF4CAF400E79A99 /* Frameworks */,
+				B907CB101FF4CAF400E79A99 /* Resources */,
+				D2DC532B6575517AAC82D164 /* [CP] Embed Pods Frameworks */,
+				C786B2302BD997C94E1EC067 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiamuAR;
+			productName = xiamuAR;
+			productReference = B907CB121FF4CAF400E79A99 /* xiamuAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B907CB291FF4CAF400E79A99 /* xiamuARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B907CB411FF4CAF400E79A99 /* Build configuration list for PBXNativeTarget "xiamuARTests" */;
+			buildPhases = (
+				B907CB261FF4CAF400E79A99 /* Sources */,
+				B907CB271FF4CAF400E79A99 /* Frameworks */,
+				B907CB281FF4CAF400E79A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B907CB2C1FF4CAF400E79A99 /* PBXTargetDependency */,
+			);
+			name = xiamuARTests;
+			productName = xiamuARTests;
+			productReference = B907CB2A1FF4CAF400E79A99 /* xiamuARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B907CB341FF4CAF400E79A99 /* xiamuARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B907CB441FF4CAF400E79A99 /* Build configuration list for PBXNativeTarget "xiamuARUITests" */;
+			buildPhases = (
+				B907CB311FF4CAF400E79A99 /* Sources */,
+				B907CB321FF4CAF400E79A99 /* Frameworks */,
+				B907CB331FF4CAF400E79A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B907CB371FF4CAF400E79A99 /* PBXTargetDependency */,
+			);
+			name = xiamuARUITests;
+			productName = xiamuARUITests;
+			productReference = B907CB351FF4CAF400E79A99 /* xiamuARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B907CB0A1FF4CAF400E79A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = guopenglai;
+				TargetAttributes = {
+					B907CB111FF4CAF400E79A99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B907CB291FF4CAF400E79A99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B907CB111FF4CAF400E79A99;
+					};
+					B907CB341FF4CAF400E79A99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B907CB111FF4CAF400E79A99;
+					};
+				};
+			};
+			buildConfigurationList = B907CB0D1FF4CAF400E79A99 /* Build configuration list for PBXProject "xiamuAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B907CB091FF4CAF400E79A99;
+			productRefGroup = B907CB131FF4CAF400E79A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B907CB111FF4CAF400E79A99 /* xiamuAR */,
+				B907CB291FF4CAF400E79A99 /* xiamuARTests */,
+				B907CB341FF4CAF400E79A99 /* xiamuARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B907CB101FF4CAF400E79A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907CB221FF4CAF400E79A99 /* LaunchScreen.storyboard in Resources */,
+				B907CB1F1FF4CAF400E79A99 /* Assets.xcassets in Resources */,
+				B907CB1D1FF4CAF400E79A99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907CB281FF4CAF400E79A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907CB331FF4CAF400E79A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0785C1967E7B9E98DC485094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xiamuAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C786B2302BD997C94E1EC067 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiamuAR/Pods-xiamuAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DC532B6575517AAC82D164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiamuAR/Pods-xiamuAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B907CB0E1FF4CAF400E79A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907CB531FF4D46F00E79A99 /* YFTabBar.m in Sources */,
+				B907CB1A1FF4CAF400E79A99 /* ViewController.m in Sources */,
+				B9C666451FF5D3B900D53A92 /* HomePageViewController.m in Sources */,
+				B9C6664E1FF5D69000D53A92 /* MineViewController.m in Sources */,
+				B907CB501FF4D44800E79A99 /* YFTabBarViewController.m in Sources */,
+				B907CB561FF4D69600E79A99 /* YFNavigationViewController.m in Sources */,
+				B907CB251FF4CAF400E79A99 /* main.m in Sources */,
+				B9C6664B1FF5D41200D53A92 /* DiscoveryViewController.m in Sources */,
+				B9C666481FF5D3E800D53A92 /* MessageViewController.m in Sources */,
+				B907CB5C1FF4D6E900E79A99 /* YFBaseTableViewCell.m in Sources */,
+				B907CB171FF4CAF400E79A99 /* AppDelegate.m in Sources */,
+				B907CB591FF4D6CA00E79A99 /* YFBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907CB261FF4CAF400E79A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907CB2F1FF4CAF400E79A99 /* xiamuARTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907CB311FF4CAF400E79A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907CB3A1FF4CAF400E79A99 /* xiamuARUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B907CB2C1FF4CAF400E79A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B907CB111FF4CAF400E79A99 /* xiamuAR */;
+			targetProxy = B907CB2B1FF4CAF400E79A99 /* PBXContainerItemProxy */;
+		};
+		B907CB371FF4CAF400E79A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B907CB111FF4CAF400E79A99 /* xiamuAR */;
+			targetProxy = B907CB361FF4CAF400E79A99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B907CB1B1FF4CAF400E79A99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B907CB1C1FF4CAF400E79A99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B907CB201FF4CAF400E79A99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B907CB211FF4CAF400E79A99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B907CB3C1FF4CAF400E79A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B907CB3D1FF4CAF400E79A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B907CB3F1FF4CAF400E79A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95E9845D670F57AE8BDA001 /* Pods-xiamuAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JULW89F3SZ;
+				GCC_PREFIX_HEADER = /Users/guopenglai/Desktop/xiamuAR/xiamuAR/xiamuAR/PrefixHeader.pch;
+				INFOPLIST_FILE = xiamuAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.look-ar.xiamuAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B907CB401FF4CAF400E79A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D24032290B6D98DEB8EACB /* Pods-xiamuAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JULW89F3SZ;
+				GCC_PREFIX_HEADER = /Users/guopenglai/Desktop/xiamuAR/xiamuAR/xiamuAR/PrefixHeader.pch;
+				INFOPLIST_FILE = xiamuAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.look-ar.xiamuAR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B907CB421FF4CAF400E79A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiamuARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gpl.xiamuARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiamuAR.app/xiamuAR";
+			};
+			name = Debug;
+		};
+		B907CB431FF4CAF400E79A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiamuARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gpl.xiamuARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiamuAR.app/xiamuAR";
+			};
+			name = Release;
+		};
+		B907CB451FF4CAF400E79A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiamuARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gpl.xiamuARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xiamuAR;
+			};
+			name = Debug;
+		};
+		B907CB461FF4CAF400E79A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = xiamuARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gpl.xiamuARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xiamuAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B907CB0D1FF4CAF400E79A99 /* Build configuration list for PBXProject "xiamuAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907CB3C1FF4CAF400E79A99 /* Debug */,
+				B907CB3D1FF4CAF400E79A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B907CB3E1FF4CAF400E79A99 /* Build configuration list for PBXNativeTarget "xiamuAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907CB3F1FF4CAF400E79A99 /* Debug */,
+				B907CB401FF4CAF400E79A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B907CB411FF4CAF400E79A99 /* Build configuration list for PBXNativeTarget "xiamuARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907CB421FF4CAF400E79A99 /* Debug */,
+				B907CB431FF4CAF400E79A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B907CB441FF4CAF400E79A99 /* Build configuration list for PBXNativeTarget "xiamuARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B907CB451FF4CAF400E79A99 /* Debug */,
+				B907CB461FF4CAF400E79A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B907CB0A1FF4CAF400E79A99 /* Project object */;
+}

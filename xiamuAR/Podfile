@@ -1,0 +1,5 @@
+target ‘xiamuAR’ do
+pod 'AFNetworking'
+pod 'YYKit'
+pod 'Masonry'
+end
