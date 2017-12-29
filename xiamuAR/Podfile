@@ -2,4 +2,5 @@ target ‘xiamuAR’ do
 pod 'AFNetworking'
 pod 'YYKit'
 pod 'Masonry'
+pod 'SVProgressHUD'
 end
