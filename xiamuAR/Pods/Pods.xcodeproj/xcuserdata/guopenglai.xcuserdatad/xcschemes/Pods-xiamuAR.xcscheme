@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A3EE46A525DEFEC92C5623CC4C117301'
+               BlueprintIdentifier = 'B439CC85CE15F460B28D8358E0D36768'
                BlueprintName = 'Pods-xiamuAR'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-xiamuAR.a'>

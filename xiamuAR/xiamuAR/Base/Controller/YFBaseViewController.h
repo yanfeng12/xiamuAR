@@ -15,8 +15,9 @@ typedef void(^lzButtonBlock)(UIButton* button);
 @property (nonatomic,strong)UILabel *customTitleLabel;
 
 @property (nonatomic,copy)NSString *flog;
-
-
+/* collectionView */
+@property (strong , nonatomic)UICollectionView *collectionView;
+/* tableView */
 @property(nonatomic,strong)UITableView *tableView;
 
 @property(nonatomic,strong)NSMutableArray *dataSource;

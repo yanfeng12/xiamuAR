@@ -8,7 +8,7 @@
 
 #import "YFBaseViewController.h"
 
-@interface YFBaseViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface YFBaseViewController ()<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (nonatomic,strong)UIView *customNavigationView;
 @property (nonatomic,copy)lzButtonBlock leftButtonAction;
 @property (nonatomic,copy)lzButtonBlock rightButtonAction;
@@ -27,7 +27,7 @@
     [self.view addSubview:bgView];
     self.customNavigationView = bgView;
     
-    LZWeakSelf(ws)
+    YFWeakSelf(ws)
     [bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.and.top.mas_equalTo(ws.view);
         make.height.mas_equalTo(64);
@@ -70,7 +70,7 @@
         [self.leftButon addTarget:self action:@selector(leftButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         [self.customNavigationView addSubview:self.leftButon];
         
-        LZWeakSelf(ws)
+        YFWeakSelf(ws)
         [self.leftButon mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(ws.customNavigationView).offset(10);
             make.top.mas_equalTo(ws.customNavigationView).offset(20);
@@ -101,7 +101,7 @@
         [self.rightButton addTarget:self action:@selector(rightButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         [self.customNavigationView addSubview:self.rightButton];
         
-        LZWeakSelf(ws)
+        YFWeakSelf(ws)
         [self.rightButton mas_makeConstraints:^(MASConstraintMaker *make) {
             make.right.mas_equalTo(ws.customNavigationView).offset(-10);
             make.top.mas_equalTo(ws.customNavigationView).offset(20);
@@ -153,7 +153,6 @@
 -(void)registerCellWithClass:(NSString *)className tableView:(UITableView *)tableView{
     [tableView registerClass:NSClassFromString(className) forCellReuseIdentifier:className];
 }
-#pragma mark
 #pragma mark TableView delegate
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -181,6 +180,18 @@
     
     NSLog(@"%@--dealloc",NSStringFromClass([self class]));
 }
+- (UICollectionView *)collectionView
+{
+    if (_collectionView==nil) {
+        UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
+        _collectionView = [[UICollectionView alloc]initWithFrame:CGRectZero collectionViewLayout:layout];
+        _collectionView.delegate = self;
+        _collectionView.dataSource = self;
+        _collectionView.showsVerticalScrollIndicator = NO; //不显示滚动条
+    }
+    return _collectionView;
+}
+
 /*
 #pragma mark - Navigation
 

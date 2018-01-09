@@ -10,6 +10,7 @@
 #import "YFNavigationViewController.h"
 #import "YFTabBar.h"
 #import "YFBaseViewController.h"
+#import "YYLoginViewController.h"
 @interface YFTabBarViewController ()<UITabBarControllerDelegate>
 
 @end
@@ -79,7 +80,8 @@
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
     
     if(viewController == [tabBarController.viewControllers objectAtIndex:3]){
-        
+        YYLoginViewController *YFloginVC = [YYLoginViewController new];
+        [self presentViewController:YFloginVC animated:YES completion:nil];
 //        if (![[DCObjManager dc_readUserDataForKey:@"isLogin"] isEqualToString:@"1"]) {
 //
 //            DCLoginMeViewController *dcLoginVc = [DCLoginMeViewController new];
