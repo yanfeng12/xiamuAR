@@ -345,13 +345,13 @@
 			path = "广告轮播图";
 			sourceTree = "<group>";
 		};
-		B90670861FFE02B6004CB026 /* 滚动标签视图 */ = {
+		B90670861FFE02B6004CB026 /* Gif图 */ = {
 			isa = PBXGroup;
 			children = (
 				B90670871FFE039E004CB026 /* YFTopLineFootView.h */,
 				B90670881FFE039E004CB026 /* YFTopLineFootView.m */,
 			);
-			path = "滚动标签视图";
+			path = "Gif图";
 			sourceTree = "<group>";
 		};
 		B906708A1FFE0B2E004CB026 /* Cell */ = {
@@ -577,7 +577,7 @@
 			children = (
 				B9DBA4D120046C8500D0A631 /* CusSortLayout */,
 				B906708A1FFE0B2E004CB026 /* Cell */,
-				B90670861FFE02B6004CB026 /* 滚动标签视图 */,
+				B90670861FFE02B6004CB026 /* Gif图 */,
 				B90670821FFE014C004CB026 /* 广告轮播图 */,
 				B906707E1FFE005B004CB026 /* 首页底部视图 */,
 				B90670771FFDFDBA004CB026 /* 首页小标题 */,

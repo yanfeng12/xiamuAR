@@ -9,7 +9,7 @@
 #import "YFBaseViewController.h"
 
 @interface YFBaseViewController ()<UITableViewDelegate,UITableViewDataSource,UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
-@property (nonatomic,strong)UIView *customNavigationView;
+
 @property (nonatomic,copy)lzButtonBlock leftButtonAction;
 @property (nonatomic,copy)lzButtonBlock rightButtonAction;
 @end
@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = LZColorFromRGB(245,245,245);
     [self createCustomView];
 }
 - (void)createCustomView {
@@ -188,6 +188,7 @@
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         _collectionView.showsVerticalScrollIndicator = NO; //不显示滚动条
+        _collectionView.backgroundColor = LZColorFromRGB(245,245,245);
     }
     return _collectionView;
 }

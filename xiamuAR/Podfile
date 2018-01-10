@@ -9,4 +9,5 @@ pod 'SDWebImage'
 pod 'MJRefresh'
 pod 'SDCycleScrollView'
 pod 'MJExtension'
+pod 'SDWebImage/GIF'
 end

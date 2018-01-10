@@ -56,8 +56,8 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
     
+    [self.customNavigationView removeFromSuperview];
     [self setUpBase];
     
     [self setUpNavTopView];
@@ -73,7 +73,7 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     [self.view addSubview:self.collectionView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.view).offset(YFNavigationHeight);
+        make.top.mas_equalTo(self.view).offset(0);
         make.left.right.and.mas_equalTo(self.view);
         make.bottom.mas_equalTo(self.view).offset(-YFTabBarHeight);
     }];
@@ -120,13 +120,13 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
 {
     _gridItem = [YFKindsModel mj_objectArrayWithFilename:@"GoodsGrid.plist"];
     _youLikeItem = [YFRecommendItem mj_objectArrayWithFilename:@"HomeHighGoods.plist"];
+
 }
 
 #pragma mark - 导航栏处理
 - (void)setUpNavTopView
 {
     _topToolView = [[YFHomeTopToolView alloc] initWithFrame:CGRectMake(0, 0, ScreenW, 64)];
-    YFWeakSelf(ws)
     _topToolView.leftItemClickBlock = ^{
         NSLog(@"点击了首页扫一扫");
     };

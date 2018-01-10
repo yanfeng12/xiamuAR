@@ -13,7 +13,7 @@ typedef void(^lzButtonBlock)(UIButton* button);
 @property (nonatomic,strong)UIButton *leftButon;
 @property (nonatomic,strong)UIButton *rightButton;
 @property (nonatomic,strong)UILabel *customTitleLabel;
-
+@property (nonatomic,strong)UIView *customNavigationView;
 @property (nonatomic,copy)NSString *flog;
 /* collectionView */
 @property (strong , nonatomic)UICollectionView *collectionView;

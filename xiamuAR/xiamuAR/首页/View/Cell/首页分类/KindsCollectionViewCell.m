@@ -91,10 +91,10 @@
     _KindsItem = KindsModel;
     
     
-    _KindsLabel.text = KindsModel.iconTitle;
-    _tagLabel.text = KindsModel.iconTag;
-    
-    CGSize tagSize = [self labelAutoCalculateRectWith:KindsModel.iconTag FontSize:8 MaxSize:CGSizeMake(MAXFLOAT, 30)];
+    _KindsLabel.text = KindsModel.gridTitle;
+    _tagLabel.text = KindsModel.gridTag;
+
+    CGSize tagSize = [self labelAutoCalculateRectWith:KindsModel.gridTag FontSize:8 MaxSize:CGSizeMake(MAXFLOAT, 30)];
     
     
     [_tagLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -103,7 +103,7 @@
         make.size.mas_equalTo(CGSizeMake(tagSize.width + 4, tagSize.height + 4));
     }];
     
-    _tagLabel.textColor = [UIColor dc_colorWithHexString:KindsModel.iconColor];
+    _tagLabel.textColor = [UIColor dc_colorWithHexString:KindsModel.gridColor];
     [DCSpeedy dc_chageControlCircularWith:_tagLabel AndSetCornerRadius:5 SetBorderWidth:1 SetBorderColor:_tagLabel.textColor canMasksToBounds:YES];
     
     
