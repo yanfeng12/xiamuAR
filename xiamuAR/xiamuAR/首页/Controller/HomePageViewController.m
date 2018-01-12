@@ -57,7 +57,7 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [self.customNavigationView removeFromSuperview];
+//    [self.customNavigationView removeFromSuperview];
     [self setUpBase];
     
     [self setUpNavTopView];
