@@ -28,6 +28,9 @@
 #import "YFKindsModel.h"
 #import "YFRecommendItem.h"
 #import <UIImageView+WebCache.h>
+
+#import "YFGoodsSetViewController.h"//商品分类
+
 @interface HomePageViewController ()
 /* 10个属性 */
 @property (strong , nonatomic)NSMutableArray<YFKindsModel *> *gridItem;
@@ -70,6 +73,8 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
 }
 -(void)setUpBase
 {
+    [self.customNavigationView removeFromSuperview];
+    
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     [self.view addSubview:self.collectionView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -126,7 +131,7 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
 #pragma mark - 导航栏处理
 - (void)setUpNavTopView
 {
-    _topToolView = [[YFHomeTopToolView alloc] initWithFrame:CGRectMake(0, 0, ScreenW, 64)];
+    _topToolView = [[YFHomeTopToolView alloc] initWithFrame:CGRectMake(0, 0, ScreenW, kStatusBarAndNavigationBarHeight)];
     _topToolView.leftItemClickBlock = ^{
         NSLog(@"点击了首页扫一扫");
     };
@@ -166,7 +171,16 @@ static NSString *const YFScrollAdFootViewID = @"YFScrollAdFootView";
     }
     return 0;
 }
-
+#pragma mark - <UICollectionViewDelegate>
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section==0) {
+        NSLog(@"点击了10个属性第%zd",indexPath.row);
+        YFGoodsSetViewController *YFgoodsVC = [[YFGoodsSetViewController alloc]init];
+        YFgoodsVC.goodPlisName = @"ClasiftyGoods.plist";
+        YFgoodsVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:YFgoodsVC animated:YES];
+    }
+}
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *gridcell = nil;

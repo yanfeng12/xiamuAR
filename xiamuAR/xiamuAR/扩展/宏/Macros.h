@@ -9,6 +9,13 @@
 #ifndef Macros_h
 #define Macros_h
 
+//是否iPhoneX YES:iPhoneX屏幕 NO:传统屏幕
+#define YFIs_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+//灵活得到导航栏+状态栏的高度
+#define kStatusBarAndNavigationBarHeight (YFIs_iPhoneX ? 88.f : 64.f)
+//状态栏高度
+#define kStatusBarHeight (YFIs_iPhoneX ? 44.f : 20.f)
+
 #define YFWeakSelf(ws) __weak typeof(self) ws = self;
 
 /** 屏幕高度 */
@@ -31,6 +38,8 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 //R G B 颜色
 #define LZColorFromRGB(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define LZColorBase LZColorFromHex(0x0075a9)
+//全局背景色
+//#define LZColorFromRGB(245,245,245)
 
 /******************    TabBar          *************/
 #define MallClassKey   @"rootVCClassString"

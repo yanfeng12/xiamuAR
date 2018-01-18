@@ -36,6 +36,10 @@
 		B907CB561FF4D69600E79A99 /* YFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB551FF4D69600E79A99 /* YFNavigationViewController.m */; };
 		B907CB591FF4D6CA00E79A99 /* YFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB581FF4D6CA00E79A99 /* YFBaseViewController.m */; };
 		B907CB5C1FF4D6E900E79A99 /* YFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */; };
+		B918535F200D95EE00C651FB /* YFGoodsSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B918535E200D95EE00C651FB /* YFGoodsSetViewController.m */; };
+		B9185363200DA91900C651FB /* YFGoodSetNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B9185362200DA91900C651FB /* YFGoodSetNavBar.m */; };
+		B9185368200DEB0E00C651FB /* YFCustionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9185367200DEB0E00C651FB /* YFCustionHeadView.m */; };
+		B918536B200DF17600C651FB /* YFCustionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B918536A200DF17600C651FB /* YFCustionButton.m */; };
 		B92D39001FFB5A450014E326 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B92D38F11FFB5A440014E326 /* logo.png */; };
 		B92D39011FFB5A450014E326 /* backImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B92D38F21FFB5A440014E326 /* backImg.jpg */; };
 		B92D39021FFB5A450014E326 /* YYFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D38F41FFB5A440014E326 /* YYFirstViewController.m */; };
@@ -43,6 +47,8 @@
 		B92D39041FFB5A450014E326 /* YYLoginTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D38F61FFB5A450014E326 /* YYLoginTranslation.m */; };
 		B92D39051FFB5A450014E326 /* YYAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D38FB1FFB5A450014E326 /* YYAddView.m */; };
 		B92D39061FFB5A450014E326 /* UIView+YYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B92D38FD1FFB5A450014E326 /* UIView+YYExtension.m */; };
+		B93B52DF200EE709009C294D /* YFListGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B93B52DE200EE709009C294D /* YFListGridCell.m */; };
+		B93B52E2200EEA27009C294D /* YFSwitchGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B93B52E1200EEA27009C294D /* YFSwitchGridCell.m */; };
 		B9C666451FF5D3B900D53A92 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C666441FF5D3B900D53A92 /* HomePageViewController.m */; };
 		B9C666481FF5D3E800D53A92 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C666471FF5D3E800D53A92 /* MessageViewController.m */; };
 		B9C6664B1FF5D41200D53A92 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C6664A1FF5D41200D53A92 /* DiscoveryViewController.m */; };
@@ -163,6 +169,14 @@
 		B907CB5A1FF4D6E900E79A99 /* YFBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFBaseTableViewCell.h; sourceTree = "<group>"; };
 		B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFBaseTableViewCell.m; sourceTree = "<group>"; };
 		B907CB5D1FF4D93500E79A99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B918535D200D95EE00C651FB /* YFGoodsSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFGoodsSetViewController.h; sourceTree = "<group>"; };
+		B918535E200D95EE00C651FB /* YFGoodsSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFGoodsSetViewController.m; sourceTree = "<group>"; };
+		B9185361200DA91900C651FB /* YFGoodSetNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFGoodSetNavBar.h; sourceTree = "<group>"; };
+		B9185362200DA91900C651FB /* YFGoodSetNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFGoodSetNavBar.m; sourceTree = "<group>"; };
+		B9185366200DEB0E00C651FB /* YFCustionHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFCustionHeadView.h; sourceTree = "<group>"; };
+		B9185367200DEB0E00C651FB /* YFCustionHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFCustionHeadView.m; sourceTree = "<group>"; };
+		B9185369200DF17600C651FB /* YFCustionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFCustionButton.h; sourceTree = "<group>"; };
+		B918536A200DF17600C651FB /* YFCustionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFCustionButton.m; sourceTree = "<group>"; };
 		B92D38F11FFB5A440014E326 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		B92D38F21FFB5A440014E326 /* backImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImg.jpg; sourceTree = "<group>"; };
 		B92D38F31FFB5A440014E326 /* YYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoginViewController.h; sourceTree = "<group>"; };
@@ -175,6 +189,10 @@
 		B92D38FD1FFB5A450014E326 /* UIView+YYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYExtension.m"; sourceTree = "<group>"; };
 		B92D38FE1FFB5A450014E326 /* UIView+YYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYExtension.h"; sourceTree = "<group>"; };
 		B92D38FF1FFB5A450014E326 /* YYLoginTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLoginTranslation.h; sourceTree = "<group>"; };
+		B93B52DD200EE709009C294D /* YFListGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFListGridCell.h; sourceTree = "<group>"; };
+		B93B52DE200EE709009C294D /* YFListGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFListGridCell.m; sourceTree = "<group>"; };
+		B93B52E0200EEA27009C294D /* YFSwitchGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFSwitchGridCell.h; sourceTree = "<group>"; };
+		B93B52E1200EEA27009C294D /* YFSwitchGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFSwitchGridCell.m; sourceTree = "<group>"; };
 		B9C666431FF5D3B900D53A92 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		B9C666441FF5D3B900D53A92 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		B9C666461FF5D3E800D53A92 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
@@ -305,6 +323,8 @@
 				B90670711FFDDC80004CB026 /* RightLabelButton.m */,
 				B906707B1FFDFF8C004CB026 /* YFTittleButton.h */,
 				B906707C1FFDFF8C004CB026 /* YFTittleButton.m */,
+				B9185369200DF17600C651FB /* YFCustionButton.h */,
+				B918536A200DF17600C651FB /* YFCustionButton.m */,
 			);
 			path = "工具";
 			sourceTree = "<group>";
@@ -401,6 +421,7 @@
 		B907CB141FF4CAF400E79A99 /* xiamuAR */ = {
 			isa = PBXGroup;
 			children = (
+				B918535B200D958100C651FB /* 商品分类 */,
 				B9E975E31FFF24F1002DD625 /* 购物车 */,
 				B9E975AC1FFF23D0002DD625 /* Resource */,
 				B92D38EF1FFB58700014E326 /* 登录注册 */,
@@ -475,6 +496,52 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		B918535B200D958100C651FB /* 商品分类 */ = {
+			isa = PBXGroup;
+			children = (
+				B9185360200DA89F00C651FB /* View */,
+				B918535C200D95B800C651FB /* Controller */,
+			);
+			path = "商品分类";
+			sourceTree = "<group>";
+		};
+		B918535C200D95B800C651FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B918535D200D95EE00C651FB /* YFGoodsSetViewController.h */,
+				B918535E200D95EE00C651FB /* YFGoodsSetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B9185360200DA89F00C651FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B93B52DC200EE5BC009C294D /* Collectioncell */,
+				B9185365200DEAC300C651FB /* CollectionHeaderView */,
+				B9185364200DEAA300C651FB /* NavBar */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9185364200DEAA300C651FB /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				B9185361200DA91900C651FB /* YFGoodSetNavBar.h */,
+				B9185362200DA91900C651FB /* YFGoodSetNavBar.m */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		B9185365200DEAC300C651FB /* CollectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				B9185366200DEB0E00C651FB /* YFCustionHeadView.h */,
+				B9185367200DEB0E00C651FB /* YFCustionHeadView.m */,
+			);
+			path = CollectionHeaderView;
+			sourceTree = "<group>";
+		};
 		B92D38EF1FFB58700014E326 /* 登录注册 */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +591,17 @@
 				B92D38FE1FFB5A450014E326 /* UIView+YYExtension.h */,
 			);
 			path = "UIView+YYExtension";
+			sourceTree = "<group>";
+		};
+		B93B52DC200EE5BC009C294D /* Collectioncell */ = {
+			isa = PBXGroup;
+			children = (
+				B93B52DD200EE709009C294D /* YFListGridCell.h */,
+				B93B52DE200EE709009C294D /* YFListGridCell.m */,
+				B93B52E0200EEA27009C294D /* YFSwitchGridCell.h */,
+				B93B52E1200EEA27009C294D /* YFSwitchGridCell.m */,
+			);
+			path = Collectioncell;
 			sourceTree = "<group>";
 		};
 		B9C666371FF5D15D00D53A92 /* 首页 */ = {
@@ -1119,6 +1197,7 @@
 				B9DBA4CC2004538400D0A631 /* YFGoodsYouLikeCell.m in Sources */,
 				B906708D1FFE1551004CB026 /* KindsCollectionViewCell.m in Sources */,
 				B906706A1FFDD6F2004CB026 /* UIView+DCRolling.m in Sources */,
+				B93B52DF200EE709009C294D /* YFListGridCell.m in Sources */,
 				B9E975E71FFF2519002DD625 /* YFRecommendItem.m in Sources */,
 				B9FDD6571FFCD652008522D9 /* YFHomeTopToolView.m in Sources */,
 				B90670761FFDF8E4004CB026 /* YFSlideshowHeadView.m in Sources */,
@@ -1126,7 +1205,10 @@
 				B90670691FFDD6F2004CB026 /* DCTitleRolling.m in Sources */,
 				B907CB561FF4D69600E79A99 /* YFNavigationViewController.m in Sources */,
 				B906705F1FFDC6D7004CB026 /* YFConsts.m in Sources */,
+				B9185368200DEB0E00C651FB /* YFCustionHeadView.m in Sources */,
+				B93B52E2200EEA27009C294D /* YFSwitchGridCell.m in Sources */,
 				B9E95CFA1FFDC0A7009E94CC /* YFNotificationCenterName.m in Sources */,
+				B918535F200D95EE00C651FB /* YFGoodsSetViewController.m in Sources */,
 				B907CB251FF4CAF400E79A99 /* main.m in Sources */,
 				B9C6664B1FF5D41200D53A92 /* DiscoveryViewController.m in Sources */,
 				B9C666481FF5D3E800D53A92 /* MessageViewController.m in Sources */,
@@ -1134,9 +1216,11 @@
 				B907CB5C1FF4D6E900E79A99 /* YFBaseTableViewCell.m in Sources */,
 				B90670621FFDC791004CB026 /* YFHomeRefreshGifHeader.m in Sources */,
 				B907CB171FF4CAF400E79A99 /* AppDelegate.m in Sources */,
+				B918536B200DF17600C651FB /* YFCustionButton.m in Sources */,
 				B92D39051FFB5A450014E326 /* YYAddView.m in Sources */,
 				B9E975AB1FFF18A1002DD625 /* YFExceedApplianceCell.m in Sources */,
 				B92D39041FFB5A450014E326 /* YYLoginTranslation.m in Sources */,
+				B9185363200DA91900C651FB /* YFGoodSetNavBar.m in Sources */,
 				B90670911FFE163A004CB026 /* YFKindsModel.m in Sources */,
 				B92D39061FFB5A450014E326 /* UIView+YYExtension.m in Sources */,
 				B92D39031FFB5A450014E326 /* YYLoginViewController.m in Sources */,

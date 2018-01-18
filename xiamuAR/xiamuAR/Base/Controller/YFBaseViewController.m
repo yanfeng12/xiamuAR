@@ -30,7 +30,7 @@
     YFWeakSelf(ws)
     [bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.and.top.mas_equalTo(ws.view);
-        make.height.mas_equalTo(64);
+        make.height.mas_equalTo(kStatusBarAndNavigationBarHeight);
     }];
     
     //    UIView *line = [UIView new];
