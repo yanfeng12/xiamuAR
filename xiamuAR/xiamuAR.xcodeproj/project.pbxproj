@@ -36,6 +36,41 @@
 		B907CB561FF4D69600E79A99 /* YFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB551FF4D69600E79A99 /* YFNavigationViewController.m */; };
 		B907CB591FF4D6CA00E79A99 /* YFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB581FF4D6CA00E79A99 /* YFBaseViewController.m */; };
 		B907CB5C1FF4D6E900E79A99 /* YFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */; };
+		B90B98EE2010703A009EC633 /* YFFootprintCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98ED2010703A009EC633 /* YFFootprintCell.m */; };
+		B90B98F1201078EE009EC633 /* YFFootprintGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98F0201078EE009EC633 /* YFFootprintGoodsViewController.m */; };
+		B90B993C20108002009EC633 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98F420108002009EC633 /* UIView+Snapshot.m */; };
+		B90B993D20108002009EC633 /* UINavigationController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98F520108002009EC633 /* UINavigationController+XWTransition.m */; };
+		B90B993E20108002009EC633 /* UIViewController+XWTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98F920108002009EC633 /* UIViewController+XWTransition.m */; };
+		B90B993F20108002009EC633 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98FC20108002009EC633 /* SDPhotoBrowser.m */; };
+		B90B994020108002009EC633 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98FD20108002009EC633 /* SDWaitingView.m */; };
+		B90B994120108002009EC633 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B98FE20108002009EC633 /* SDBrowserImageView.m */; };
+		B90B994220108002009EC633 /* XWFilterAnimator+XWBarSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B990520108002009EC633 /* XWFilterAnimator+XWBarSwipe.m */; };
+		B90B994320108002009EC633 /* XWFilterAnimator+XWPageCurl.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B990620108002009EC633 /* XWFilterAnimator+XWPageCurl.m */; };
+		B90B994420108002009EC633 /* XWFilterAnimator+XWCopyMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B990A20108002009EC633 /* XWFilterAnimator+XWCopyMachine.m */; };
+		B90B994520108002009EC633 /* XWFilterAnimator+XWRipple.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B990D20108002009EC633 /* XWFilterAnimator+XWRipple.m */; };
+		B90B994620108002009EC633 /* XWFilterAnimator+XWFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B990E20108002009EC633 /* XWFilterAnimator+XWFlash.m */; };
+		B90B994720108002009EC633 /* XWFilterAnimator+XWMod.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B990F20108002009EC633 /* XWFilterAnimator+XWMod.m */; };
+		B90B994820108002009EC633 /* XWFilterAnimator+XWMask.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991020108002009EC633 /* XWFilterAnimator+XWMask.m */; };
+		B90B994920108002009EC633 /* XWFilterAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991420108002009EC633 /* XWFilterAnimator.m */; };
+		B90B994A20108002009EC633 /* XWFilterAnimator+XWSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991520108002009EC633 /* XWFilterAnimator+XWSwipe.m */; };
+		B90B994B20108002009EC633 /* XWFilterTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991720108002009EC633 /* XWFilterTransitionView.m */; };
+		B90B994C20108002009EC633 /* XWFilterAnimator+XWBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991820108002009EC633 /* XWFilterAnimator+XWBoxBlur.m */; };
+		B90B994D20108002009EC633 /* XWCoolAnimator+XWScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991A20108002009EC633 /* XWCoolAnimator+XWScanning.m */; };
+		B90B994E20108002009EC633 /* XWCoolAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991B20108002009EC633 /* XWCoolAnimator.m */; };
+		B90B994F20108002009EC633 /* XWCoolAnimator+XWLines.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B991E20108002009EC633 /* XWCoolAnimator+XWLines.m */; };
+		B90B995020108002009EC633 /* XWCoolAnimator+XWExplode.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B992020108002009EC633 /* XWCoolAnimator+XWExplode.m */; };
+		B90B995120108002009EC633 /* XWCoolAnimator+XWFold.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B992320108002009EC633 /* XWCoolAnimator+XWFold.m */; };
+		B90B995220108002009EC633 /* XWCoolAnimator+XWPageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B992420108002009EC633 /* XWCoolAnimator+XWPageFlip.m */; };
+		B90B995320108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B992620108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.m */; };
+		B90B995420108002009EC633 /* XWCoolAnimator+XWPortal.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B992820108002009EC633 /* XWCoolAnimator+XWPortal.m */; };
+		B90B995520108002009EC633 /* XWMagicMoveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B992C20108002009EC633 /* XWMagicMoveAnimator.m */; };
+		B90B995620108002009EC633 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = B90B992E20108002009EC633 /* line.png */; };
+		B90B995720108002009EC633 /* restrictedshine.tiff in Resources */ = {isa = PBXBuildFile; fileRef = B90B992F20108002009EC633 /* restrictedshine.tiff */; };
+		B90B995820108002009EC633 /* mask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B90B993020108002009EC633 /* mask.jpg */; };
+		B90B995920108002009EC633 /* XWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B993420108002009EC633 /* XWInteractiveTransition.m */; };
+		B90B995A20108002009EC633 /* XWTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B993520108002009EC633 /* XWTransitionAnimator.m */; };
+		B90B995B20108002009EC633 /* XWCircleSpreadAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B993720108002009EC633 /* XWCircleSpreadAnimator.m */; };
+		B90B995C20108002009EC633 /* XWDrawerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B993B20108002009EC633 /* XWDrawerAnimator.m */; };
 		B918535F200D95EE00C651FB /* YFGoodsSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B918535E200D95EE00C651FB /* YFGoodsSetViewController.m */; };
 		B9185363200DA91900C651FB /* YFGoodSetNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B9185362200DA91900C651FB /* YFGoodSetNavBar.m */; };
 		B9185368200DEB0E00C651FB /* YFCustionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9185367200DEB0E00C651FB /* YFCustionHeadView.m */; };
@@ -169,6 +204,74 @@
 		B907CB5A1FF4D6E900E79A99 /* YFBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFBaseTableViewCell.h; sourceTree = "<group>"; };
 		B907CB5B1FF4D6E900E79A99 /* YFBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFBaseTableViewCell.m; sourceTree = "<group>"; };
 		B907CB5D1FF4D93500E79A99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B90B98EC2010703A009EC633 /* YFFootprintCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFFootprintCell.h; sourceTree = "<group>"; };
+		B90B98ED2010703A009EC633 /* YFFootprintCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFFootprintCell.m; sourceTree = "<group>"; };
+		B90B98EF201078EE009EC633 /* YFFootprintGoodsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFFootprintGoodsViewController.h; sourceTree = "<group>"; };
+		B90B98F0201078EE009EC633 /* YFFootprintGoodsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFFootprintGoodsViewController.m; sourceTree = "<group>"; };
+		B90B98F420108002009EC633 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		B90B98F520108002009EC633 /* UINavigationController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XWTransition.m"; sourceTree = "<group>"; };
+		B90B98F620108002009EC633 /* UIViewController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XWTransition.h"; sourceTree = "<group>"; };
+		B90B98F720108002009EC633 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		B90B98F820108002009EC633 /* UINavigationController+XWTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XWTransition.h"; sourceTree = "<group>"; };
+		B90B98F920108002009EC633 /* UIViewController+XWTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XWTransition.m"; sourceTree = "<group>"; };
+		B90B98FB20108002009EC633 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		B90B98FC20108002009EC633 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		B90B98FD20108002009EC633 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		B90B98FE20108002009EC633 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		B90B98FF20108002009EC633 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		B90B990020108002009EC633 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		B90B990120108002009EC633 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		B90B990320108002009EC633 /* XWFilterAnimator+XWMod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWMod.h"; sourceTree = "<group>"; };
+		B90B990420108002009EC633 /* XWFilterAnimator+XWFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWFlash.h"; sourceTree = "<group>"; };
+		B90B990520108002009EC633 /* XWFilterAnimator+XWBarSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWBarSwipe.m"; sourceTree = "<group>"; };
+		B90B990620108002009EC633 /* XWFilterAnimator+XWPageCurl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWPageCurl.m"; sourceTree = "<group>"; };
+		B90B990720108002009EC633 /* XWFilterAnimator+XWMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWMask.h"; sourceTree = "<group>"; };
+		B90B990820108002009EC633 /* XWFilterAnimator+XWSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWSwipe.h"; sourceTree = "<group>"; };
+		B90B990920108002009EC633 /* XWFilterAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFilterAnimator.h; sourceTree = "<group>"; };
+		B90B990A20108002009EC633 /* XWFilterAnimator+XWCopyMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWCopyMachine.m"; sourceTree = "<group>"; };
+		B90B990B20108002009EC633 /* XWFilterAnimator+XWBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWBoxBlur.h"; sourceTree = "<group>"; };
+		B90B990C20108002009EC633 /* XWFilterTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFilterTransitionView.h; sourceTree = "<group>"; };
+		B90B990D20108002009EC633 /* XWFilterAnimator+XWRipple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWRipple.m"; sourceTree = "<group>"; };
+		B90B990E20108002009EC633 /* XWFilterAnimator+XWFlash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWFlash.m"; sourceTree = "<group>"; };
+		B90B990F20108002009EC633 /* XWFilterAnimator+XWMod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWMod.m"; sourceTree = "<group>"; };
+		B90B991020108002009EC633 /* XWFilterAnimator+XWMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWMask.m"; sourceTree = "<group>"; };
+		B90B991120108002009EC633 /* XWFilterAnimator+XWPageCurl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWPageCurl.h"; sourceTree = "<group>"; };
+		B90B991220108002009EC633 /* XWFilterAnimator+XWBarSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWBarSwipe.h"; sourceTree = "<group>"; };
+		B90B991320108002009EC633 /* XWFilterAnimator+XWCopyMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWCopyMachine.h"; sourceTree = "<group>"; };
+		B90B991420108002009EC633 /* XWFilterAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFilterAnimator.m; sourceTree = "<group>"; };
+		B90B991520108002009EC633 /* XWFilterAnimator+XWSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWSwipe.m"; sourceTree = "<group>"; };
+		B90B991620108002009EC633 /* XWFilterAnimator+XWRipple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWFilterAnimator+XWRipple.h"; sourceTree = "<group>"; };
+		B90B991720108002009EC633 /* XWFilterTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFilterTransitionView.m; sourceTree = "<group>"; };
+		B90B991820108002009EC633 /* XWFilterAnimator+XWBoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWFilterAnimator+XWBoxBlur.m"; sourceTree = "<group>"; };
+		B90B991A20108002009EC633 /* XWCoolAnimator+XWScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWScanning.m"; sourceTree = "<group>"; };
+		B90B991B20108002009EC633 /* XWCoolAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCoolAnimator.m; sourceTree = "<group>"; };
+		B90B991C20108002009EC633 /* XWCoolAnimator+XWPageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWPageFlip.h"; sourceTree = "<group>"; };
+		B90B991D20108002009EC633 /* XWCoolAnimator+XWFold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWFold.h"; sourceTree = "<group>"; };
+		B90B991E20108002009EC633 /* XWCoolAnimator+XWLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWLines.m"; sourceTree = "<group>"; };
+		B90B991F20108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWMiddlePageFlip.h"; sourceTree = "<group>"; };
+		B90B992020108002009EC633 /* XWCoolAnimator+XWExplode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWExplode.m"; sourceTree = "<group>"; };
+		B90B992120108002009EC633 /* XWCoolAnimator+XWPortal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWPortal.h"; sourceTree = "<group>"; };
+		B90B992220108002009EC633 /* XWCoolAnimator+XWScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWScanning.h"; sourceTree = "<group>"; };
+		B90B992320108002009EC633 /* XWCoolAnimator+XWFold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWFold.m"; sourceTree = "<group>"; };
+		B90B992420108002009EC633 /* XWCoolAnimator+XWPageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWPageFlip.m"; sourceTree = "<group>"; };
+		B90B992520108002009EC633 /* XWCoolAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCoolAnimator.h; sourceTree = "<group>"; };
+		B90B992620108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWMiddlePageFlip.m"; sourceTree = "<group>"; };
+		B90B992720108002009EC633 /* XWCoolAnimator+XWLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWLines.h"; sourceTree = "<group>"; };
+		B90B992820108002009EC633 /* XWCoolAnimator+XWPortal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XWCoolAnimator+XWPortal.m"; sourceTree = "<group>"; };
+		B90B992920108002009EC633 /* XWCoolAnimator+XWExplode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XWCoolAnimator+XWExplode.h"; sourceTree = "<group>"; };
+		B90B992B20108002009EC633 /* XWMagicMoveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWMagicMoveAnimator.h; sourceTree = "<group>"; };
+		B90B992C20108002009EC633 /* XWMagicMoveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWMagicMoveAnimator.m; sourceTree = "<group>"; };
+		B90B992E20108002009EC633 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		B90B992F20108002009EC633 /* restrictedshine.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = restrictedshine.tiff; sourceTree = "<group>"; };
+		B90B993020108002009EC633 /* mask.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mask.jpg; sourceTree = "<group>"; };
+		B90B993220108002009EC633 /* XWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInteractiveTransition.h; sourceTree = "<group>"; };
+		B90B993320108002009EC633 /* XWTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWTransitionAnimator.h; sourceTree = "<group>"; };
+		B90B993420108002009EC633 /* XWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInteractiveTransition.m; sourceTree = "<group>"; };
+		B90B993520108002009EC633 /* XWTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWTransitionAnimator.m; sourceTree = "<group>"; };
+		B90B993720108002009EC633 /* XWCircleSpreadAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCircleSpreadAnimator.m; sourceTree = "<group>"; };
+		B90B993820108002009EC633 /* XWCircleSpreadAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCircleSpreadAnimator.h; sourceTree = "<group>"; };
+		B90B993A20108002009EC633 /* XWDrawerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawerAnimator.h; sourceTree = "<group>"; };
+		B90B993B20108002009EC633 /* XWDrawerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawerAnimator.m; sourceTree = "<group>"; };
 		B918535D200D95EE00C651FB /* YFGoodsSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFGoodsSetViewController.h; sourceTree = "<group>"; };
 		B918535E200D95EE00C651FB /* YFGoodsSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFGoodsSetViewController.m; sourceTree = "<group>"; };
 		B9185361200DA91900C651FB /* YFGoodSetNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFGoodSetNavBar.h; sourceTree = "<group>"; };
@@ -289,6 +392,7 @@
 		B90670631FFDD6BF004CB026 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				B90B98F220108002009EC633 /* XWTransition */,
 				B90670641FFDD6F2004CB026 /* CDDTitleRolling */,
 			);
 			path = "第三方";
@@ -421,6 +525,7 @@
 		B907CB141FF4CAF400E79A99 /* xiamuAR */ = {
 			isa = PBXGroup;
 			children = (
+				B90B98E820106EE6009EC633 /* 足迹 */,
 				B918535B200D958100C651FB /* 商品分类 */,
 				B9E975E31FFF24F1002DD625 /* 购物车 */,
 				B9E975AC1FFF23D0002DD625 /* Resource */,
@@ -494,6 +599,184 @@
 				B907CB581FF4D6CA00E79A99 /* YFBaseViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B90B98E820106EE6009EC633 /* 足迹 */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98EA20106EFB009EC633 /* View */,
+				B90B98E920106EF1009EC633 /* Controller */,
+			);
+			path = "足迹";
+			sourceTree = "<group>";
+		};
+		B90B98E920106EF1009EC633 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98EF201078EE009EC633 /* YFFootprintGoodsViewController.h */,
+				B90B98F0201078EE009EC633 /* YFFootprintGoodsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B90B98EA20106EFB009EC633 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98EB20106F81009EC633 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B90B98EB20106F81009EC633 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98EC2010703A009EC633 /* YFFootprintCell.h */,
+				B90B98ED2010703A009EC633 /* YFFootprintCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		B90B98F220108002009EC633 /* XWTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98F320108002009EC633 /* Category */,
+				B90B98FA20108002009EC633 /* SDPhotoBrowser */,
+				B90B990220108002009EC633 /* XWFilterAnimator */,
+				B90B991920108002009EC633 /* XWCoolAnimator */,
+				B90B992A20108002009EC633 /* XWMagicMoveAnimator */,
+				B90B992D20108002009EC633 /* Resoures */,
+				B90B993120108002009EC633 /* Main */,
+				B90B993620108002009EC633 /* XWCircleSpreadAnimator */,
+				B90B993920108002009EC633 /* XWDrawerAnimator */,
+			);
+			path = XWTransition;
+			sourceTree = "<group>";
+		};
+		B90B98F320108002009EC633 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98F420108002009EC633 /* UIView+Snapshot.m */,
+				B90B98F520108002009EC633 /* UINavigationController+XWTransition.m */,
+				B90B98F620108002009EC633 /* UIViewController+XWTransition.h */,
+				B90B98F720108002009EC633 /* UIView+Snapshot.h */,
+				B90B98F820108002009EC633 /* UINavigationController+XWTransition.h */,
+				B90B98F920108002009EC633 /* UIViewController+XWTransition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B90B98FA20108002009EC633 /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B90B98FB20108002009EC633 /* SDPhotoBrowserConfig.h */,
+				B90B98FC20108002009EC633 /* SDPhotoBrowser.m */,
+				B90B98FD20108002009EC633 /* SDWaitingView.m */,
+				B90B98FE20108002009EC633 /* SDBrowserImageView.m */,
+				B90B98FF20108002009EC633 /* SDWaitingView.h */,
+				B90B990020108002009EC633 /* SDPhotoBrowser.h */,
+				B90B990120108002009EC633 /* SDBrowserImageView.h */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		B90B990220108002009EC633 /* XWFilterAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B90B990320108002009EC633 /* XWFilterAnimator+XWMod.h */,
+				B90B990420108002009EC633 /* XWFilterAnimator+XWFlash.h */,
+				B90B990520108002009EC633 /* XWFilterAnimator+XWBarSwipe.m */,
+				B90B990620108002009EC633 /* XWFilterAnimator+XWPageCurl.m */,
+				B90B990720108002009EC633 /* XWFilterAnimator+XWMask.h */,
+				B90B990820108002009EC633 /* XWFilterAnimator+XWSwipe.h */,
+				B90B990920108002009EC633 /* XWFilterAnimator.h */,
+				B90B990A20108002009EC633 /* XWFilterAnimator+XWCopyMachine.m */,
+				B90B990B20108002009EC633 /* XWFilterAnimator+XWBoxBlur.h */,
+				B90B990C20108002009EC633 /* XWFilterTransitionView.h */,
+				B90B990D20108002009EC633 /* XWFilterAnimator+XWRipple.m */,
+				B90B990E20108002009EC633 /* XWFilterAnimator+XWFlash.m */,
+				B90B990F20108002009EC633 /* XWFilterAnimator+XWMod.m */,
+				B90B991020108002009EC633 /* XWFilterAnimator+XWMask.m */,
+				B90B991120108002009EC633 /* XWFilterAnimator+XWPageCurl.h */,
+				B90B991220108002009EC633 /* XWFilterAnimator+XWBarSwipe.h */,
+				B90B991320108002009EC633 /* XWFilterAnimator+XWCopyMachine.h */,
+				B90B991420108002009EC633 /* XWFilterAnimator.m */,
+				B90B991520108002009EC633 /* XWFilterAnimator+XWSwipe.m */,
+				B90B991620108002009EC633 /* XWFilterAnimator+XWRipple.h */,
+				B90B991720108002009EC633 /* XWFilterTransitionView.m */,
+				B90B991820108002009EC633 /* XWFilterAnimator+XWBoxBlur.m */,
+			);
+			path = XWFilterAnimator;
+			sourceTree = "<group>";
+		};
+		B90B991920108002009EC633 /* XWCoolAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B90B991A20108002009EC633 /* XWCoolAnimator+XWScanning.m */,
+				B90B991B20108002009EC633 /* XWCoolAnimator.m */,
+				B90B991C20108002009EC633 /* XWCoolAnimator+XWPageFlip.h */,
+				B90B991D20108002009EC633 /* XWCoolAnimator+XWFold.h */,
+				B90B991E20108002009EC633 /* XWCoolAnimator+XWLines.m */,
+				B90B991F20108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.h */,
+				B90B992020108002009EC633 /* XWCoolAnimator+XWExplode.m */,
+				B90B992120108002009EC633 /* XWCoolAnimator+XWPortal.h */,
+				B90B992220108002009EC633 /* XWCoolAnimator+XWScanning.h */,
+				B90B992320108002009EC633 /* XWCoolAnimator+XWFold.m */,
+				B90B992420108002009EC633 /* XWCoolAnimator+XWPageFlip.m */,
+				B90B992520108002009EC633 /* XWCoolAnimator.h */,
+				B90B992620108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.m */,
+				B90B992720108002009EC633 /* XWCoolAnimator+XWLines.h */,
+				B90B992820108002009EC633 /* XWCoolAnimator+XWPortal.m */,
+				B90B992920108002009EC633 /* XWCoolAnimator+XWExplode.h */,
+			);
+			path = XWCoolAnimator;
+			sourceTree = "<group>";
+		};
+		B90B992A20108002009EC633 /* XWMagicMoveAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B90B992B20108002009EC633 /* XWMagicMoveAnimator.h */,
+				B90B992C20108002009EC633 /* XWMagicMoveAnimator.m */,
+			);
+			path = XWMagicMoveAnimator;
+			sourceTree = "<group>";
+		};
+		B90B992D20108002009EC633 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				B90B992E20108002009EC633 /* line.png */,
+				B90B992F20108002009EC633 /* restrictedshine.tiff */,
+				B90B993020108002009EC633 /* mask.jpg */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		B90B993120108002009EC633 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B90B993220108002009EC633 /* XWInteractiveTransition.h */,
+				B90B993320108002009EC633 /* XWTransitionAnimator.h */,
+				B90B993420108002009EC633 /* XWInteractiveTransition.m */,
+				B90B993520108002009EC633 /* XWTransitionAnimator.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B90B993620108002009EC633 /* XWCircleSpreadAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B90B993720108002009EC633 /* XWCircleSpreadAnimator.m */,
+				B90B993820108002009EC633 /* XWCircleSpreadAnimator.h */,
+			);
+			path = XWCircleSpreadAnimator;
+			sourceTree = "<group>";
+		};
+		B90B993920108002009EC633 /* XWDrawerAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B90B993A20108002009EC633 /* XWDrawerAnimator.h */,
+				B90B993B20108002009EC633 /* XWDrawerAnimator.m */,
+			);
+			path = XWDrawerAnimator;
 			sourceTree = "<group>";
 		};
 		B918535B200D958100C651FB /* 商品分类 */ = {
@@ -1069,9 +1352,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9E975CD1FFF2406002DD625 /* ClasiftyGoods.plist in Resources */,
+				B90B995820108002009EC633 /* mask.jpg in Resources */,
 				B92D39011FFB5A450014E326 /* backImg.jpg in Resources */,
 				B9E975CA1FFF2406002DD625 /* ClassifyTitles.plist in Resources */,
 				B9E975DB1FFF2406002DD625 /* GoodsGrid.plist in Resources */,
+				B90B995720108002009EC633 /* restrictedshine.tiff in Resources */,
 				B9E975D71FFF2406002DD625 /* MyCenterFlow.plist in Resources */,
 				B92D39001FFB5A450014E326 /* logo.png in Resources */,
 				B907CB221FF4CAF400E79A99 /* LaunchScreen.storyboard in Resources */,
@@ -1083,6 +1368,7 @@
 				B9E975CF1FFF2406002DD625 /* ClassiftyGoods02.plist in Resources */,
 				B9E975DD1FFF2406002DD625 /* CountDownShop.plist in Resources */,
 				B9E975DA1FFF2406002DD625 /* MyServiceFlow.plist in Resources */,
+				B90B995620108002009EC633 /* line.png in Resources */,
 				B9E975DC1FFF2406002DD625 /* HomeHighGoods.plist in Resources */,
 				B9E975D41FFF2406002DD625 /* BeautyRecommendShop.plist in Resources */,
 				B9E975D91FFF2406002DD625 /* MessageNote.plist in Resources */,
@@ -1174,10 +1460,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90B993F20108002009EC633 /* SDPhotoBrowser.m in Sources */,
 				B907CB531FF4D46F00E79A99 /* YFTabBar.m in Sources */,
 				B907CB1A1FF4CAF400E79A99 /* ViewController.m in Sources */,
 				B90670721FFDDC80004CB026 /* RightLabelButton.m in Sources */,
+				B90B994220108002009EC633 /* XWFilterAnimator+XWBarSwipe.m in Sources */,
 				B90670891FFE039E004CB026 /* YFTopLineFootView.m in Sources */,
+				B90B994B20108002009EC633 /* XWFilterTransitionView.m in Sources */,
+				B90B98F1201078EE009EC633 /* YFFootprintGoodsViewController.m in Sources */,
 				B9DBA4D420046C8500D0A631 /* DCNewWelfareLayout.m in Sources */,
 				B9FDD6511FFCC7EB008522D9 /* UIImage+DCCircle.m in Sources */,
 				B906706E1FFDD9F3004CB026 /* YFCountDownHeadView.m in Sources */,
@@ -1188,13 +1478,24 @@
 				B9C6664E1FF5D69000D53A92 /* MineViewController.m in Sources */,
 				B907CB501FF4D44800E79A99 /* YFTabBarViewController.m in Sources */,
 				B9DBA4D0200468E400D0A631 /* YFNewWelfareCell.m in Sources */,
+				B90B995020108002009EC633 /* XWCoolAnimator+XWExplode.m in Sources */,
 				B906707D1FFDFF8C004CB026 /* YFTittleButton.m in Sources */,
+				B90B98EE2010703A009EC633 /* YFFootprintCell.m in Sources */,
 				B9FDD64E1FFCC7EB008522D9 /* UIView+DCExtension.m in Sources */,
+				B90B995B20108002009EC633 /* XWCircleSpreadAnimator.m in Sources */,
+				B90B994C20108002009EC633 /* XWFilterAnimator+XWBoxBlur.m in Sources */,
 				B90670941FFE1BA1004CB026 /* DCSpeedy.m in Sources */,
+				B90B994E20108002009EC633 /* XWCoolAnimator.m in Sources */,
 				B90670851FFE0193004CB026 /* YFScrollAdFootView.m in Sources */,
 				B9FDD6421FFC7A71008522D9 /* YFNavSearchBarView.m in Sources */,
 				B9E975A71FFF1669002DD625 /* YFGoodsHandheldCell.m in Sources */,
+				B90B995220108002009EC633 /* XWCoolAnimator+XWPageFlip.m in Sources */,
+				B90B995420108002009EC633 /* XWCoolAnimator+XWPortal.m in Sources */,
+				B90B995A20108002009EC633 /* XWTransitionAnimator.m in Sources */,
 				B9DBA4CC2004538400D0A631 /* YFGoodsYouLikeCell.m in Sources */,
+				B90B994A20108002009EC633 /* XWFilterAnimator+XWSwipe.m in Sources */,
+				B90B995520108002009EC633 /* XWMagicMoveAnimator.m in Sources */,
+				B90B993E20108002009EC633 /* UIViewController+XWTransition.m in Sources */,
 				B906708D1FFE1551004CB026 /* KindsCollectionViewCell.m in Sources */,
 				B906706A1FFDD6F2004CB026 /* UIView+DCRolling.m in Sources */,
 				B93B52DF200EE709009C294D /* YFListGridCell.m in Sources */,
@@ -1203,29 +1504,46 @@
 				B90670761FFDF8E4004CB026 /* YFSlideshowHeadView.m in Sources */,
 				B9E975EA1FFF25F5002DD625 /* YFGoodsSurplusCell.m in Sources */,
 				B90670691FFDD6F2004CB026 /* DCTitleRolling.m in Sources */,
+				B90B994520108002009EC633 /* XWFilterAnimator+XWRipple.m in Sources */,
 				B907CB561FF4D69600E79A99 /* YFNavigationViewController.m in Sources */,
 				B906705F1FFDC6D7004CB026 /* YFConsts.m in Sources */,
+				B90B994720108002009EC633 /* XWFilterAnimator+XWMod.m in Sources */,
 				B9185368200DEB0E00C651FB /* YFCustionHeadView.m in Sources */,
 				B93B52E2200EEA27009C294D /* YFSwitchGridCell.m in Sources */,
 				B9E95CFA1FFDC0A7009E94CC /* YFNotificationCenterName.m in Sources */,
+				B90B994D20108002009EC633 /* XWCoolAnimator+XWScanning.m in Sources */,
 				B918535F200D95EE00C651FB /* YFGoodsSetViewController.m in Sources */,
+				B90B993D20108002009EC633 /* UINavigationController+XWTransition.m in Sources */,
+				B90B995C20108002009EC633 /* XWDrawerAnimator.m in Sources */,
+				B90B994120108002009EC633 /* SDBrowserImageView.m in Sources */,
 				B907CB251FF4CAF400E79A99 /* main.m in Sources */,
 				B9C6664B1FF5D41200D53A92 /* DiscoveryViewController.m in Sources */,
+				B90B993C20108002009EC633 /* UIView+Snapshot.m in Sources */,
 				B9C666481FF5D3E800D53A92 /* MessageViewController.m in Sources */,
 				B92D39021FFB5A450014E326 /* YYFirstViewController.m in Sources */,
 				B907CB5C1FF4D6E900E79A99 /* YFBaseTableViewCell.m in Sources */,
 				B90670621FFDC791004CB026 /* YFHomeRefreshGifHeader.m in Sources */,
 				B907CB171FF4CAF400E79A99 /* AppDelegate.m in Sources */,
+				B90B994020108002009EC633 /* SDWaitingView.m in Sources */,
+				B90B995320108002009EC633 /* XWCoolAnimator+XWMiddlePageFlip.m in Sources */,
+				B90B994820108002009EC633 /* XWFilterAnimator+XWMask.m in Sources */,
 				B918536B200DF17600C651FB /* YFCustionButton.m in Sources */,
 				B92D39051FFB5A450014E326 /* YYAddView.m in Sources */,
+				B90B994320108002009EC633 /* XWFilterAnimator+XWPageCurl.m in Sources */,
+				B90B994920108002009EC633 /* XWFilterAnimator.m in Sources */,
+				B90B994F20108002009EC633 /* XWCoolAnimator+XWLines.m in Sources */,
 				B9E975AB1FFF18A1002DD625 /* YFExceedApplianceCell.m in Sources */,
 				B92D39041FFB5A450014E326 /* YYLoginTranslation.m in Sources */,
+				B90B994420108002009EC633 /* XWFilterAnimator+XWCopyMachine.m in Sources */,
 				B9185363200DA91900C651FB /* YFGoodSetNavBar.m in Sources */,
+				B90B995920108002009EC633 /* XWInteractiveTransition.m in Sources */,
 				B90670911FFE163A004CB026 /* YFKindsModel.m in Sources */,
 				B92D39061FFB5A450014E326 /* UIView+YYExtension.m in Sources */,
 				B92D39031FFB5A450014E326 /* YYLoginViewController.m in Sources */,
+				B90B995120108002009EC633 /* XWCoolAnimator+XWFold.m in Sources */,
 				B906707A1FFDFE20004CB026 /* HomePageTittleView.m in Sources */,
 				B907CB591FF4D6CA00E79A99 /* YFBaseViewController.m in Sources */,
+				B90B994620108002009EC633 /* XWFilterAnimator+XWFlash.m in Sources */,
 				B9FDD6521FFCC7EB008522D9 /* UIColor+DCColorChange.m in Sources */,
 				B9E975E21FFF2477002DD625 /* YFGoodsCountDownCell.m in Sources */,
 			);

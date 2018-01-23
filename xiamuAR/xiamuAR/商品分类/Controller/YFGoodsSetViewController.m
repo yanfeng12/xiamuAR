@@ -11,9 +11,13 @@
 #import "YFCustionHeadView.h"
 #import "YFListGridCell.h"
 #import "YFSwitchGridCell.h"
-
+#import "YFFootprintGoodsViewController.h"
 
 #import "YFRecommendItem.h"
+
+#import "XWDrawerAnimator.h"
+#import "UIViewController+XWTransition.h"
+
 @interface YFGoodsSetViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 
@@ -26,6 +30,12 @@
 @property (strong , nonatomic)NSMutableArray<YFRecommendItem *> *setItem;
 /* Nav */
 @property (strong , nonatomic)YFGoodSetNavBar *Nav;
+
+/* 滚回顶部按钮 */
+@property (strong , nonatomic)UIButton *backTopButton;
+/* 足迹按钮 */
+@property (strong , nonatomic)UIButton *footprintButton;
+
 @end
 
 static NSString *const YFCustionHeadViewID = @"YFCustionHeadView";
@@ -40,12 +50,14 @@ static NSString *const YFListGridCellID = @"YFListGridCell";
     [self.customNavigationView removeFromSuperview];
 
     
-
-
     [self setNav];
     [self setCollection];
     [self setUpColl];
     [self setUpData];
+    /*
+     先添加collection,再添加悬浮按钮
+     */
+    [self setUpSuspendView];
 }
 
 #pragma mark - initialize
@@ -84,6 +96,53 @@ static NSString *const YFListGridCellID = @"YFListGridCell";
     self.collectionView.backgroundColor = self.view.backgroundColor;
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
 }
+#pragma mark - 悬浮按钮
+- (void)setUpSuspendView
+{
+    _backTopButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:_backTopButton];
+    [_backTopButton addTarget:self action:@selector(ScrollToTop) forControlEvents:UIControlEventTouchUpInside];
+    [_backTopButton setImage:[UIImage imageNamed:@"btn_UpToTop"] forState:UIControlStateNormal];
+    _backTopButton.hidden = YES;
+    _backTopButton.frame = CGRectMake(ScreenW - 50, ScreenH - 60, 40, 40);
+    
+    _footprintButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:_footprintButton];
+    [_footprintButton addTarget:self action:@selector(footprintButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    [_footprintButton setImage:[UIImage imageNamed:@"ptgd_icon_zuji"] forState:UIControlStateNormal];
+    _footprintButton.frame = CGRectMake(ScreenW - 50, ScreenH - 60, 40, 40);
+}
+#pragma mark - collectionView滚回顶部
+- (void)ScrollToTop
+{
+    [self.collectionView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:YES];
+}
+
+#pragma mark - 商品浏览足迹
+- (void)footprintButtonClick
+{
+    [self setUpAlterViewControllerWith:[YFFootprintGoodsViewController alloc] WithDistance:ScreenW * 0.4];
+}
+
+#pragma mark - 转场动画弹出控制器
+- (void)setUpAlterViewControllerWith:(UIViewController *)vc WithDistance:(CGFloat)distance
+{
+    XWDrawerAnimatorDirection direction = XWDrawerAnimatorDirectionRight;
+    XWDrawerAnimator *animator = [XWDrawerAnimator xw_animatorWithDirection:direction moveDistance:distance];
+    animator.parallaxEnable = YES;
+    [self xw_presentViewController:vc withAnimator:animator];
+    YFWeakSelf(ws)
+    [animator xw_enableEdgeGestureAndBackTapWithConfig:^{
+        [ws selfAlterViewback];
+    }];
+}
+
+#pragma 退出界面
+- (void)selfAlterViewback{
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 #pragma mark - 加载数据
 - (void)setUpData
 {
@@ -131,10 +190,10 @@ static NSString *const YFListGridCellID = @"YFListGridCell";
     if (kind == UICollectionElementKindSectionHeader){
 
         YFCustionHeadView *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:YFCustionHeadViewID forIndexPath:indexPath];
-//        YFWeakSelf(ws)
-//        headerView.filtrateClickBlock = ^{//点击了筛选
-//            [ws filtrateButtonClick];
-//        };
+        YFWeakSelf(ws)
+        headerView.filtrateClickBlock = ^{//点击了筛选
+            [ws filtrateButtonClick];
+        };
         reusableview = headerView;
     }
     return reusableview;
@@ -159,7 +218,25 @@ static NSString *const YFListGridCellID = @"YFListGridCell";
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
     return (_isSwitchGrid) ? 0 : 4;
 }
-
+#pragma mark - <UIScrollViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    //判断回到顶部按钮是否隐藏
+    _backTopButton.hidden = (scrollView.contentOffset.y > 0) ? NO : YES;
+    
+    //__weak typeof(self) ws = self;
+    YFWeakSelf(ws)
+    [UIView animateWithDuration:0.25 animations:^{
+        __strong typeof(ws)strongSelf = ws;
+        strongSelf.footprintButton.dc_y = (strongSelf.backTopButton.hidden == YES) ? ScreenH - 60 : ScreenH - 110;
+    }];
+    
+}
+#pragma mark - 点击筛选
+-(void)filtrateButtonClick
+{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

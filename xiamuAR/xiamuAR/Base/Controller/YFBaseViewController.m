@@ -133,7 +133,15 @@
     }
     return _dataSource;
 }
+/*
+ iOS懒加载不起作用的原因:
+ 找了很久，才发现程序中调用这个变量时，我为了图省事就都是用的_provinces，所以不会走getter方法，把第一个调用的地方改成self. provinces就好了
+ 
+ 特在此记录一下。
+ 
+ 原因分析：self.xxx会调用类的getter方法，而如果直接用_xxx只是直接访问类的实例变量，而不会调用getter方法了。
 
+ */
 -(UITableView *)tableView{
     if (_tableView==nil) {
         _tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
